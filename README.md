@@ -8,7 +8,7 @@ Although the results from this project are not ground breaking many lessons and 
 # The Data
 The data, once downloaded as midis, would be transformed into Mel-frequency cepstral coefficients. This data type is a 2d array representing varioues discrete time snippets in the data. At each time snippet the y-axis represents the frequency wave and its element represents the strength of that frequency. For example Arr[0][0] reresents the strength of "wave 0" at time zero.
 
-![image](https://github.com/Brayden-Smith/TeamScheduler/blob/master/image_2024-11-09_181107507.png)
+![image](https://miro.medium.com/v2/resize:fit:1400/1*pzE4i1TXaLCmzTXgdxFZjQ.jpeg)
 This data type was chosen as 2d arrays are easy to work with and can easily be interpreted by the machine model. 
 The downsides of this choice was the amount of time and effort taken to transform the data into this graph and this transformation effectively results in a 30% quality in the audio once turned back.
 
